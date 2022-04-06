@@ -3,13 +3,15 @@
  * @Author: hanb
  * @Date: 2022-04-01 11:58:26
  * @LastEditors: hanb
- * @LastEditTime: 2022-04-01 14:18:35
+ * @LastEditTime: 2022-04-02 19:46:42
  */
 module.exports = {
   title: '日常问题记录',
   description: '收录一些日常的代码和问题解决思路',
   base: '/daily-huhu/',
+  dest: 'docs/dist',
   theme: 'reco',
+  lastUpdated: '上次更新', 
   themeConfig: {
     subSidebar: 'auto',
     nav: [
@@ -38,7 +40,15 @@ module.exports = {
           { title: "类型", path: "/views/base/type" },
           { title: "函数", path: "/views/base/func" }
         ],
-      }
+      },
+      {
+        title: "nginx",
+        path: '/views/nginx/index',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "Location", path: "/views/nginx/location" },
+        ],
+      },
     ]
   },
   locales: {
