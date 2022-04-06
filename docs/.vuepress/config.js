@@ -3,7 +3,7 @@
  * @Author: hanb
  * @Date: 2022-04-01 11:58:26
  * @LastEditors: hanb
- * @LastEditTime: 2022-04-02 19:46:42
+ * @LastEditTime: 2022-04-06 10:36:26
  */
 module.exports = {
   title: '日常问题记录',
@@ -47,6 +47,14 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: "Location", path: "/views/nginx/location" },
+        ],
+      },
+      {
+        title: '热点问题',
+        path: '/views/problem/index',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "dom", path: "/views/problem/dom" },
         ],
       },
     ]

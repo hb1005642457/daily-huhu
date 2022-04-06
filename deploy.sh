@@ -3,7 +3,7 @@
  # @Author: hanb
  # @Date: 2022-04-01 14:23:10
  # @LastEditors: hanb
- # @LastEditTime: 2022-04-01 14:30:07
+ # @LastEditTime: 2022-04-06 10:27:32
 ### 
 #!/usr/bin/env sh
 
@@ -21,6 +21,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/hb1005642457/daily-huhu.git master:gh-pages
+git push -f https://github.com/hb1005642457/daily-huhu.git main:gh-pages
 
 cd -
