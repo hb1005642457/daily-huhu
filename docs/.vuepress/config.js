@@ -3,7 +3,7 @@
  * @Author: hanb
  * @Date: 2022-04-01 11:58:26
  * @LastEditors: hanb
- * @LastEditTime: 2022-04-06 10:36:26
+ * @LastEditTime: 2022-04-27 22:58:10
  */
 module.exports = {
   title: '日常问题记录',
@@ -55,6 +55,13 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [
           { title: "dom", path: "/views/problem/dom" },
+          { title: "es6", path: "/views/problem/es6" },
+          { title: "写代码", path: "/views/problem/code" },
+          { title: "vue", path: "/views/problem/vue" },
+          { title: "开发问题", path: "/views/problem/develop" },
+          { title: "nodejs", path: "/views/problem/nodejs" },
+          { title: "webpack", path: "/views/problem/webpack" },
+          { title: "typescript", path: "/views/problem/typescript" },
         ],
       },
     ]
